@@ -1,0 +1,22 @@
+# Dépendances Node & PHP
+/frontend/node_modules/
+/backend/vendor/
+
+# Builds & compilations
+/frontend/dist/
+/frontend/build/
+/backend/var/
+
+# Fichiers d'environnement locaux (clés d'API, secrets)
+.env.local
+.env.*.local
+*.env
+
+# Fichiers d'éditeurs et système
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Conteneurs et logs local
+*.log
